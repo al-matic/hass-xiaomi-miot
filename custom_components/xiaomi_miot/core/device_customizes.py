@@ -440,7 +440,7 @@ DEVICE_CUSTOMIZES = {
         'state_class': 'total_increasing',
         'device_class': 'energy',
         'unit_of_measurement': 'kWh',
-    },    
+    },
     'cuco.plug.*': {
         'main_miot_services': 'switch-2',
         'parallel_updates': 3,
@@ -1064,7 +1064,7 @@ DEVICE_CUSTOMIZES = {
         'select_properties': 'mode',
     },
     'mmgg.pet_waterer.wi11:no_water_flag': {
-         'reverse_state': True,
+        'reverse_state': True,
     },
     'mmgg.pet_waterer.s1': {
         'binary_sensor_properties': 'no_water_flag,pump_block_flag,lid_up_flag',
@@ -1235,7 +1235,7 @@ DEVICE_CUSTOMIZES = {
         'state_class': 'total_increasing',
         'device_class': 'energy',
         'unit_of_measurement': 'kWh',
-    },    
+    },
     'qmi.plug.2a1c1': {
         'main_miot_services': 'switch-2',
         'sensor_attributes': 'power_cost_today,power_cost_month',
@@ -1659,6 +1659,9 @@ DEVICE_CUSTOMIZES = {
         'switch_properties': 'anion,alarm',
         'select_properties': 'brightness,temperature_display_unit',
         'number_properties': 'favorite_speed,favorite_level',
+    },
+    'zhimi.airp.meb1': {
+        'sensor_properties': 'relative_humidity,pm2_5_density,pm10_density,temperature,filter_life_level',
     },
     'zhimi.airp.meb1:pm10_density': {
         'unit_of_measurement': 'µg/m³',
